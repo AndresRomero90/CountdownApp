@@ -23,11 +23,22 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  padding: 0;
   gap: 2rem;
+}
+@media screen and (max-width: 640px) {
+  .container .socials {
+    gap: 4rem;
+  }
 }
 .container .socials .social-link a {
   font-size: 1.6rem;
   color: var(--clr-primary-gray);
+}
+@media screen and (max-width: 640px) {
+  .container .socials .social-link a {
+    font-size: 3rem;
+  }
 }
 .container .socials .social-link a:hover {
   color: var(--clr-primary-red);
