@@ -59,7 +59,6 @@
     .upper-half,
     .upper-half-flip {
       grid-row: 1 / span 1;
-      // border-bottom: 1px solid var(--clr-neutral-very-darker-blue);
       align-items: flex-end;
       filter: brightness(80%);
       transform-origin: bottom;
