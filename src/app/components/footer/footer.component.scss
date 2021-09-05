@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+
+  .socials {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+    .social-link {
+      a {
+        font-size: 1.6rem;
+        color: var(--clr-primary-gray);
+
+        &:hover {
+          color: var(--clr-primary-red);
+        }
+      }
+    }
+  }
+}
