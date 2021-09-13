@@ -7,7 +7,7 @@
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [Angular](https://angular.io/) - JS library
+- [Angular](https://angular.io/) - JS framework
 - [FontAwesome](https://fontawesome.com/) - Icons library
 
 ---
